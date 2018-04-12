@@ -1,0 +1,9 @@
+[submodule "dependencies/nucleus"]
+	path = dependencies/nucleus
+	url = https://github.com/primordialmachine/nucleus
+[submodule "dependencies/libsndfile"]
+	path = dependencies/libsndfile
+url=https://github.com/primordialmachine/libsndfile/
+[submodule "dependencies/libmp3lame"]
+	path = dependencies/libmp3lame
+	url = https://github.com/Iunusov/libmp3lame-CMAKE.git
