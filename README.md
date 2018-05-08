@@ -104,10 +104,10 @@ Nucleus - relative to your build directory.
 
 For example, if you are in the source directory and you want the project files for Visual Studio to be generated
 in `./build/visualstudio`, then simply enter `mkdir build; cd build; mkdir visualstudio`. Then tell CMake to
-generate the build files in there by invokin
+generate the build files in there by invoking
 
 ```
-cmake -G "Visual Studio 15 2017 Win64" ./../../CMakeLists.txt
+cmake -G "Visual Studio 15 2017 Win64" . ./../../CMakeLists.txt
 ```
 
 ## Demos
