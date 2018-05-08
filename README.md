@@ -110,24 +110,38 @@ generate the build files in there by invokin
 cmake -G "Visual Studio 15 2017 Win64" ./../../CMakeLists.txt
 ```
 
-## Running the demos
+## Demos
 Nucleus: Audio provides demonstrations of features in the folder `demo`.
-- WavToMp3BatchConverter
-- ReadWavWriteWav
-  Read a WAV file and write the WAV file.
-  Usage: `Nucleus.Audio.ReadWavWriteWav <source> <target>`
-- ReadWavWriteMp3:
-  Read a WAV file, convert it to MP3, and write the MP3 file.
-  Usage: `Nucleus.Audio.ReadWavWriteMp3 <source> <target>`
-- WritePcm
-  Generate a sine wave and write it as a PCM file.
-  Usage: `Nucleus.Audio.WritePcm <target>`
-- WriteWav
-  Generate a sine wave and write it as an WAV file.
-  Usage: `Nucleus.Audio.WriteWav <target>`
-- WriteMp3:
-  Generate a sine wave and write it as an MP3 file.
-  Usage: `Nucleus.Audio.WriteMp3 <target>`
+- *WavToMp3BatchConverter*:
 
+Read all WAV files in a directory, convert them to MP3, and write the MP3 files.
+Usage: `Nucleus.Audio.ReadWavWriteWav <directory>`
+
+- *ReadWavWriteWav*:
+
+Read a WAV file and write the WAV file.
+Usage: `Nucleus.Audio.ReadWavWriteWav <source> <target>`
+
+- *ReadWavWriteMp3*:
+
+Read a WAV file, convert it to MP3, and write the MP3 file.
+Usage: `Nucleus.Audio.ReadWavWriteMp3 <source> <target>`
+
+- *WritePcm*:
+
+Generate a sine wave and write it as a PCM file.
+Usage: `Nucleus.Audio.WritePcm <target>`
+
+- *WriteWav*:
+
+Generate a sine wave and write it as an WAV file.
+Usage: `Nucleus.Audio.WriteWav <target>`
+
+- *WriteMp3*:
+
+Generate a sine wave and write it as an MP3 file.
+Usage: `Nucleus.Audio.WriteMp3 <target>`
+
+## Test files
 As well included are several WAV files for testing. They can be found in the folder `demo/data`.
 Some fairly large WAV files are compressed using 7z so you need to unpack them before using them for testing. 
